@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1 class="card-title">Inseer </h1><br>
+
+    <p> Upload the video from people detection and it will draw pose estimation on the video for only that person.
+        After, put in the numbers in the text field. This field requires you to put the coordinates you wish to analyze
+        in a whole text. For example, if you want to track 1, then input 1; If the person's identification number changes
+        from 1 to 2 and 2 to 5 as the video progress, then input 1;2;5; </p>
+
+    <p> Again, the screen may look as if it froze, but it is in progress and usually it takes 3-4 minutes for 15 seconds video.</p>
+    <p> Note that there cannot be an overlap of identification numbers. For example, 1 and 2 cannot be in the same frame, because
+        for one person there only exists one identification number.</p>
+
+    <p>After you are done with pose estimation and downloaded all the files, go to analyze calculation to do ergonomic
+    analysis</p>
+
+    <h4>Pose estimation</h4>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="document">
+        <input type="text" name="textfield" placeholder="e.g 1;2;3 or 1;">
+        <button type="submit">Upload file</button>
+    </form>
+
+  {% if url %}
+        <figure id="video">
+            <video width="800" controls autoplay>
+                <source src="{{video}}" type="video/mp4">
+            </video>
+            <figcaption>
+                <ul>
+                    <li><a href="{{video}}">
+                        Play Pose Estimation Video
+                        </a></li>
+                </ul>
+            </figcaption>
+        </figure>
+        <script type="text/javascript">
+        var video_player = document.getElementById("video"),
+        links = video_player.getElementsByTagName('a');
+        for (var i=0; i<links.length; i++) {
+            links[i].onclick = handler;
+        }
+        function handler(e) {
+            e.preventDefault();
+            videotarget = this.getAttribute("href");
+            filename = videotarget.substr(0, videotarget.lastIndexOf('.')) || videotarget;
+            video = document.querySelector("#video video");
+            source = document.querySelectorAll("#video video source");
+            source[0].src = filename + ".mp4";
+            video.load();
+            video.play();
+        }
+        </script>
+    <p>Download pose estimation video file: <a href="{{ video }}" download> Pose Estimation Video</a></p>
+    <!--<p>Download pose estimation angles text file: <a href="{{ text }}" download> Toal summary text</a></p>-->
+    <p>Download pose estimation angles neck shoulder image file: <a href="{{ neck }}" download> Neck angles visualization image</a></p>
+    <p>Download pose estimation angles neck shoulder image file: <a href="{{ neck_text }}" download> {{ neck_text}}</a></p>
+    <p>Download pose estimation angles left shoulder image file: <a href="{{ left }}" download> Left arm angles visualization</a></p>
+    <p>Download pose estimation angles left shoulder image file: <a href="{{ left_text }}" download> {{ left_text }}</a></p>
+    <p>Download pose estimation angles right shoulder image file: <a href="{{ right }}" download> Right arm angles visualization</a></p>
+    <p>Download pose estimation angles right shoulder text file: <a href="{{ right_text }}" download> {{ right_text }}</a></p>
+
+  {% endif %}
+{% endblock %}
+
+

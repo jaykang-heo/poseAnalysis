@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a85f739b-0bba-4ebd-b349-55ce7b67266f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/core/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/core/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/core/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/core/migrations/0002_book_cover.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/static/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/book_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/class_book_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/upload_book.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite/core/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/templates/calculate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/core/visualize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="180" column="68" lean-forward="true" selection-start-line="180" selection-start-column="68" selection-end-line="180" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>create_detections</find>
+      <find>encoder</find>
+      <find>infere</find>
+      <find>normalise_data</find>
+      <find>cap</find>
+      <find>create</find>
+      <find>pose_lifting</find>
+      <find>transform</find>
+      <find>infer</find>
+      <find>image_w</find>
+      <find>inference</find>
+      <find>estimate</find>
+      <find>calculate_point</find>
+      <find>interpolation</find>
+      <find>calculate</find>
+      <find>neck_angle</find>
+      <find>True</find>
+      <find>35364</find>
+      <find>video_file</find>
+      <find>generate_video</find>
+      <find>common</find>
+      <find>read_or</find>
+      <find>read_or_not</find>
+      <find>text</find>
+      <find>pose_result_text_path</find>
+      <find>draw</find>
+      <find>out</find>
+      <find>get_numbers</find>
+      <find>human_nums</find>
+      <find>miss</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mysite/templates/book_list.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/upload_book.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/upload.html" />
+        <option value="$PROJECT_DIR$/mysite/core/models.py" />
+        <option value="$PROJECT_DIR$/mysite/core/forms.py" />
+        <option value="$PROJECT_DIR$/mysite/static/css/app.css" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/mysite/pose/lifting/prob_model.py" />
+        <option value="$PROJECT_DIR$/mysite/track/deep_sort/deep_sort_app.py" />
+        <option value="$PROJECT_DIR$/mysite/pose/tf-pose-estimation-3d/src/lifting/prob_model.py" />
+        <option value="$PROJECT_DIR$/mysite/pose/tf-pose-estimation-3d/src/estimator.py" />
+        <option value="$PROJECT_DIR$/mysite/track/visualize.py" />
+        <option value="$PROJECT_DIR$/mysite/track/yolo.py" />
+        <option value="$PROJECT_DIR$/mysite/pose/tf-pose-estimation-3d/src/run.py" />
+        <option value="$PROJECT_DIR$/mysite/pose/views.py" />
+        <option value="$PROJECT_DIR$/mysite/pose/pose_3d/src/estimator.py" />
+        <option value="$PROJECT_DIR$/mysite/pose/pose_3d/src/networks.py" />
+        <option value="$PROJECT_DIR$/mysite/pose/pose_3d/src/network_mobilenet.py" />
+        <option value="$PROJECT_DIR$/mysite/pose/pose_3d/src/network_base.py" />
+        <option value="$PROJECT_DIR$/mysite/pose/pose_3d/src/network_mobilenet_thin.py" />
+        <option value="$PROJECT_DIR$/mysite/pose/pose_3d/src/network_cmu.py" />
+        <option value="$PROJECT_DIR$/mysite/track/views.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/base.html" />
+        <option value="$PROJECT_DIR$/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/home.html" />
+        <option value="$PROJECT_DIR$/mysite/pose/pose_3d/src/run.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/pose.html" />
+        <option value="$PROJECT_DIR$/mysite/core/visualize.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/calculate.html" />
+        <option value="$PROJECT_DIR$/mysite/core/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="django-upload-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-upload-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-upload-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-upload-example" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-upload-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-upload-example" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-upload-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-upload-example" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="pose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-upload-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-upload-example" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="pose" type="462c0819:PsiDirectoryNode" />
+              <item name="pose_3d" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-upload-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-upload-example" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="pose" type="462c0819:PsiDirectoryNode" />
+              <item name="pose_3d" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-upload-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-upload-example" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pose-django" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jay\Desktop\django-upload-example\mysite\pose" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.views">
+    <configuration name="prob_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django-upload-example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/pose/tf-pose-estimation-3d/src/lifting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/pose/tf-pose-estimation-3d/src/lifting/prob_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django-upload-example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/pose/tf-pose-estimation-3d/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/pose/tf-pose-estimation-3d/src/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django-upload-example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/track" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/track/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="visualize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django-upload-example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/track" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/track/visualize.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yolo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django-upload-example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/track" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/track/yolo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.views" />
+      <item itemvalue="Python.yolo" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.prob_model" />
+      <item itemvalue="Python.visualize" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.visualize" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.prob_model" />
+        <item itemvalue="Python.yolo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a85f739b-0bba-4ebd-b349-55ce7b67266f" name="Default Changelist" comment="" />
+      <created>1558999707655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558999707655</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17175975" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2019544" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23669924" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/mysite/track/deep_sort" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mysite/models.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/apps.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/tests.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/admin.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pose/views.py" />
+    <entry file="file://$PROJECT_DIR$/sample.jpg" />
+    <entry file="file://$PROJECT_DIR$/mysite/pose/lifting/upright_fast.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/pose/lifting/prob_model.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/track/deep_sort/application_util/visualization.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/track/deep_sort/tools/generate_detections.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/track/deep_sort/deep_sort/tracker.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/track/deep_sort/show_results.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/track/deep_sort/generate_videos.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/track/deep_sort/deep_sort/track.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/track/deep_sort/evaluate_motchallenge.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/track/deep_sort/deep_sort_app.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/pose/tf-pose-estimation-3d/src/common.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/pose/tf-pose-estimation-3d/src/estimator.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/pose/tf-pose-estimation-3d/src/lifting/draw.py" />
+    <entry file="file://$PROJECT_DIR$/box_coordinates.txt" />
+    <entry file="file://$PROJECT_DIR$/export_left_13088_13989.txt" />
+    <entry file="file://$PROJECT_DIR$/export_right_13088_13989.txt" />
+    <entry file="file://$PROJECT_DIR$/mysite/pose/tf-pose-estimation-3d/src/lifting/prob_model.py" />
+    <entry file="file://$PROJECT_DIR$/export_left_13959_15816.txt" />
+    <entry file="file://$PROJECT_DIR$/analysis/0049/export_left_100695_ 101955_new.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/mysite/core/migrations/0001_initial.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/core/migrations/0002_book_cover.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/track/visualize.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/track/yolo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/track/yolo/yolo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/pose/tf-pose-estimation-3d/src/run.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/pose/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/pose/pose_3d/src/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-489">
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/pose/pose_3d/src/network_cmu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/pose/pose_3d/src/network_mobilenet_thin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/pose/pose_3d/src/network_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/pose/pose_3d/src/network_mobilenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/pose/pose_3d/src/networks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" column="15" selection-start-line="25" selection-start-column="31" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/pose/pose_3d/src/estimator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="923">
+          <caret line="290" column="12" selection-start-line="290" selection-start-column="8" selection-end-line="290" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/track/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/pose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="115" selection-start-line="62" selection-start-column="115" selection-end-line="62" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/pose/pose_3d/src/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3629">
+          <caret line="320" column="96" selection-start-line="320" selection-start-column="96" selection-end-line="320" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/calculate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/core/visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="180" column="68" lean-forward="true" selection-start-line="180" selection-start-column="68" selection-end-line="180" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

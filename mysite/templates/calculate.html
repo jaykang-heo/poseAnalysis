@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1 class="card-title">Inseer </h1><br>
+
+    <p> Upload Neck, left shoulder, right shoulder angles text file consecutively. Input angle ranges for neck and shoulder.
+    You can adjust the angles in order to produce more meaningful data.</p>
+
+    <p>Note that you have to put neck ext and neck flex as a whole string format as before. For example, if you would
+    like to assign 160 as ext bound and 95 as flex bound, then put 160;95; It applies same for shoulder as well. I have used
+    160;95; for neck and 60;90; for shoulder.</p>
+
+    <p>This will take 1-2 seconds.</p>
+
+    <h4>Generate Excel</h4>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <li>Neck File:           <input type="file" name="document1"></li>
+        <li>Left Shoulder File:  <input type="file" name="document2"></li>
+        <li>Right Shoulder File: <input type="file" name="document3"></li>
+        <li><input type="text" name="textfield1" placeholder="neck ext;flex;"></li>
+        <li><input type="text" name="textfield2" placeholder="shoulder mild;severe;"></li>
+        <button type="submit">Upload file</button>
+    </form>
+
+  {% if excel %}
+    <p>Download analysis excel: <a href="{{ excel }}" download>{{ excel }}</a></p>
+    <p>Download analysis text file: <a href="{{ text }}" download>{{ text }}</a></p>
+  {% endif %}
+{% endblock %}
+
+

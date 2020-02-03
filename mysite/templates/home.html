@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1 class="card-title">Inseer </h1><br>
+
+
+    <p> Upload video for people tracking, then it will return a text file containing the box coordinates and a video file with
+    boxes drawn. Since re-identification is not complete at this moment, you will have to manually review the video to figure
+    out which number is the one that you are looking for. </p>
+
+    <p> The screen may look as if it froze, but it is in progress and usually it takes 2-3 minutes for 15 seconds video.</p>
+
+    <p>After you are done with the people detection go to 'pose estimation' link above to gather 3d pose estimation results</p>
+    <h4>For tracking</h4>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="document">
+        <button type="submit">Upload file</button>
+    </form>
+
+  {% if url %}
+    <!--<body>-->
+        <figure id="video">
+            <video width="800" controls autoplay>
+                <source src="{{url}}" type="video/mp4">
+            </video>
+            <figcaption>
+                <ul>
+                    <li><a href="{{box_write}}">
+                        Play People Detection Video
+                        </a></li>
+                </ul>
+            </figcaption>
+        </figure>
+        <script type="text/javascript">
+        var video_player = document.getElementById("video"),
+        links = video_player.getElementsByTagName('a');
+        for (var i=0; i<links.length; i++) {
+            links[i].onclick = handler;
+        }
+        function handler(e) {
+            e.preventDefault();
+            videotarget = this.getAttribute("href");
+            filename = videotarget.substr(0, videotarget.lastIndexOf('.')) || videotarget;
+            video = document.querySelector("#video video");
+            source = document.querySelectorAll("#video video source");
+            source[0].src = filename + ".mp4";
+            video.load();
+            video.play();
+        }
+        </script>
+    <!--</body>-->
+    <p>Download people detection video file: <a href="{{ box_write }}" download>{{ box_write }}</a></p>
+    <p>Download people detection text file: <a href="{{ box_text }}" download>{{ box_text }}</a></p>
+
+  {% endif %}
+{% endblock %}
+
+
