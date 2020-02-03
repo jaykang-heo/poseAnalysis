@@ -1,2 +1,1 @@
-# poseAnalysis
-Full Stack Website for Pose Analysis
+[embed]https://github.com/jaykang1992/poseAnalysis/blob/master/README.pdf[/embed]
